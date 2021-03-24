@@ -1,0 +1,80 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timer-display {
+  font-family: "Orbitron", sans-serif;
+  border: 5px solid rgb(70, 73, 75);
+  margin-bottom: 3rem;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 30px;
+  box-shadow: 3px 2px 7px #8b7878;
+}
+
+.control-button {
+  padding: 10px 20px;
+  margin: 10px 10px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  box-shadow: 3px 2px 7px #8b7878;
+}
+
+.control-button:active {
+  transform: translateY(3px);
+}
+
+.start-stop {
+  background-color: rgb(40, 165, 40);
+  color: white;
+}
+
+.start-stop:hover {
+  background-color: rgb(47, 145, 47);
+}
+
+.wait-button {
+  background-color: rgb(255, 215, 0);
+  color: rgb(47, 36, 36);
+}
+
+.wait-button:hover {
+  background-color: rgb(243, 217, 71);
+}
+
+.reset-button {
+  background-color: rgb(241, 12, 12);
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: rgb(221, 65, 18);
+}
